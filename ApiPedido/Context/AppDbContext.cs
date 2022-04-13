@@ -19,5 +19,6 @@ namespace ApiPedido.Context
         public DbSet<Proveedor> proveedor { get; set; }
         public DbSet<Producto> producto { get; set; }
         public DbSet<Menu> menu { get; set; }
+        public DbSet<Compra> compra { get; set; }
     }
 }
